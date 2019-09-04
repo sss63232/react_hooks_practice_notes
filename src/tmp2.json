@@ -1,0 +1,179 @@
+{
+  "catItemId": "catItem15710",
+  "id": 3369796,
+  "models": [
+    {
+      "id": 6497671,
+      "images": [
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/80B7AE6DA5-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/725929FEBA-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/84BE782ECF-Product-6490826.jpg",
+          "width": 250,
+          "height": 250,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/31F2A408FA-Product-6490826.jpg",
+          "width": 135,
+          "height": 135,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/28A4233C0D-Product-6490826.jpg",
+          "width": 80,
+          "height": 80,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/6119048321-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 2
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/8A1BF14808-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 2
+        }
+      ],
+      "items": [
+        {
+          "id": 6497666,
+          "partNo": "partNo2",
+          "spec": {
+            "name": "顏色",
+            "selectedValue": "白色系"
+          },
+          "sku": 6497666
+        },
+        {
+          "id": 6497667,
+          "partNo": "partNo3",
+          "spec": {
+            "name": "顏色",
+            "selectedValue": "灰色系"
+          },
+          "sku": 6497667
+        }
+      ],
+      "spec": {
+        "name": "商品品牌",
+        "selectedValue": "5th STREET"
+      },
+      "sku": 6497671,
+      "videos": [
+        {
+          "duration": 15000,
+          "order": 1,
+          "thumbnail": {
+            "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/247b63a8da594424aff38069159639e3/247b63a8da594424aff38069159639e3_thumbnails_720p.0000000.jpg"
+          },
+          "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/247b63a8da594424aff38069159639e3/247b63a8da594424aff38069159639e3_720p.mp4",
+          "videoId": "247b63a8da594424aff38069159639e3-https://s.yimg.com/bp/Files/8a1258ca99cef3d4955353d3503549b41e496fa9.qt"
+        }
+      ]
+    },
+    {
+      "id": 6497672,
+      "images": [
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/80B7AE6DA5-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/725929FEBA-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/84BE782ECF-Product-6490826.jpg",
+          "width": 250,
+          "height": 250,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/31F2A408FA-Product-6490826.jpg",
+          "width": 135,
+          "height": 135,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/28A4233C0D-Product-6490826.jpg",
+          "width": 80,
+          "height": 80,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/6119048321-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 2
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/8A1BF14808-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 2
+        }
+      ],
+      "items": [
+        {
+          "id": 6497668,
+          "partNo": "partNo4",
+          "spec": {
+            "name": "顏色",
+            "selectedValue": "白色系"
+          },
+          "sku": 6497668
+        },
+        {
+          "id": 6497669,
+          "partNo": "partNo5",
+          "spec": {
+            "name": "顏色",
+            "selectedValue": "灰色系"
+          },
+          "sku": 6497669
+        }
+      ],
+      "spec": {
+        "name": "商品品牌",
+        "selectedValue": "Levi's"
+      },
+      "sku": 6497672,
+      "videos": [
+        {
+          "duration": 15000,
+          "order": 1,
+          "thumbnail": {
+            "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/247b63a8da594424aff38069159639e3/247b63a8da594424aff38069159639e3_thumbnails_720p.0000000.jpg"
+          },
+          "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/247b63a8da594424aff38069159639e3/247b63a8da594424aff38069159639e3_720p.mp4",
+          "videoId": "247b63a8da594424aff38069159639e3-https://s.yimg.com/bp/Files/8a1258ca99cef3d4955353d3503549b41e496fa9.qt"
+        }
+      ]
+    }
+  ],
+  "name": "測試賣場-updateVideo-雙層屬性",
+  "partNo": "partNo1",
+  "sku": 6497670,
+  "subStationId": "sub1",
+  "supplierId": 7161
+}
+
+

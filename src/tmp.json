@@ -1,0 +1,141 @@
+{
+  "catItemId": "catItem43390",
+  "id": 3367399,
+  "models": [
+    {
+      "id": 6490415,
+      "images": [
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/80B7AE6DA5-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/725929FEBA-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/84BE782ECF-Product-6490826.jpg",
+          "width": 250,
+          "height": 250,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/31F2A408FA-Product-6490826.jpg",
+          "width": 135,
+          "height": 135,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/28A4233C0D-Product-6490826.jpg",
+          "width": 80,
+          "height": 80,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/6119048321-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 2
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/8A1BF14808-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 2
+        }
+      ],
+      "partNo": "partNo2",
+      "spec": {
+        "name": "商品品牌",
+        "selectedValue": "5th STREET"
+      },
+      "sku": 6490415,
+      "videos": [
+        {
+          "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_720p.mp4",
+          "duration": 20020,
+          "thumbnail": {
+            "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_thumbnails_720p.0000000.jpg"
+          },
+          "order": 1,
+          "videoId": "57ccc9f187ac4ffabb3dbddcafe97f06-https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_720p.mp4"
+        }
+      ]
+    },
+    {
+      "id": 6490416,
+      "images": [
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/80B7AE6DA5-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/725929FEBA-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/84BE782ECF-Product-6490826.jpg",
+          "width": 250,
+          "height": 250,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/31F2A408FA-Product-6490826.jpg",
+          "width": 135,
+          "height": 135,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/28A4233C0D-Product-6490826.jpg",
+          "width": 80,
+          "height": 80,
+          "order": 1
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/6119048321-Product-6490826.jpg",
+          "width": 1000,
+          "height": 1000,
+          "order": 2
+        },
+        {
+          "url": "https://s.yimg.com/zo/MerchandiseImages/8A1BF14808-Product-6490826.jpg",
+          "width": 400,
+          "height": 400,
+          "order": 2
+        }
+      ],
+      "partNo": "partNo3",
+      "spec": {
+        "name": "商品品牌",
+        "selectedValue": "Levi's"
+      },
+      "sku": 6490416,
+      "videos": [
+        {
+          "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_720p.mp4",
+          "duration": 20020,
+          "thumbnail": {
+            "url": "https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_thumbnails_720p.0000000.jpg"
+          },
+          "order": 1,
+          "videoId": "57ccc9f187ac4ffabb3dbddcafe97f06-https://edgecast-vod.yahoo.net/aws-oath-nevec-aws-int/destination/57ccc9f187ac4ffabb3dbddcafe97f06/57ccc9f187ac4ffabb3dbddcafe97f06_720p.mp4"
+        }
+      ]
+    }
+  ],
+  "name": "[測試賣場] 有選項 Peggy V2",
+  "partNo": "partNo1",
+  "sku": 6490417,
+  "subStationId": "sub1",
+  "supplierId": 4866
+}
+
+

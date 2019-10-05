@@ -1,8 +1,10 @@
 import React, { useState, useContext } from 'react'
 import NotesContext from '../context/notes-context'
+import { useReadOnly } from '../context/readOnlyContext'
 
 const AddNoteForm = () => {
   const { dispatch } = useContext(NotesContext)
+  const { isReadOnly } = useReadOnly()
 
   const [title, setTitle] = useState('')
   const [body, setBody] = useState('')
@@ -21,18 +23,28 @@ const AddNoteForm = () => {
   return (
         <>
           <p>Add note</p>
-          <form onSubmit={addNote}>
+          <form
+            onSubmit={addNote}
+          >
             <input
+              disabled={isReadOnly}
+
               placeholder='note title'
               value={title}
               onChange={e => setTitle(e.target.value)}
             />
             <input
+              disabled={isReadOnly}
+
               placeholder='note content'
               value={body}
               onChange={e => setBody(e.target.value)}
             />
-            <button>add note</button>
+            <button
+              disabled={isReadOnly}
+            >
+              add note
+            </button>
           </form>
         </>
   )

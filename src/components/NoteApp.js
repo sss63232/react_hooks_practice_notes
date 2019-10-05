@@ -4,6 +4,8 @@ import NoteList from './NoteList'
 import AddNoteForm from './AddNoteForm'
 import NotesContext from '../context/notes-context'
 import useMousePosition from '../hooks/useMousePosition'
+import { ReadOnlyProvider } from '../context/readOnlyContext'
+import ReadOnlyToggle from './ReadOnlyToggle'
 
 const NoteApp = () => {
   /** useReducer usage */
@@ -25,16 +27,24 @@ const NoteApp = () => {
   const position = useMousePosition()
 
   return (
-    <NotesContext.Provider value={{ notes, dispatch }}>
-      <div>
+    <ReadOnlyProvider>
+      {/*
+        * use React Context effectively
+        * @see https://kentcdodds.com/blog/how-to-use-react-context-effectively
+      */}
+      <ReadOnlyToggle />
+
+      <NotesContext.Provider value={{ notes, dispatch }}>
+        <div>
           current mouse position: {position.x} - {position.y}
-      </div>
+        </div>
 
-      <h1>Notes</h1>
-      <NoteList />
-      <AddNoteForm />
+        <h1>Notes</h1>
+        <NoteList />
+        <AddNoteForm />
 
-    </NotesContext.Provider>
+      </NotesContext.Provider>
+    </ReadOnlyProvider>
   )
 }
 

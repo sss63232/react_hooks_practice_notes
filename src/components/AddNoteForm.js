@@ -1,34 +1,41 @@
 import React, { useState, useContext } from 'react'
 import NotesContext from '../context/notes-context'
-import useMousePosition from '../hooks/useMousePosition'
 
 const AddNoteForm = () => {
-    const { dispatch } = useContext(NotesContext)
-    const [title, setTitle] = useState('')
-    const [body, setBody] = useState('')
-    const position = useMousePosition()
+  const { dispatch } = useContext(NotesContext)
 
-    const addNote = (e) => {
-        e.preventDefault()
-        dispatch({
-            type: 'ADD_NOTE',
-            title,
-            body
-        })
-        setTitle('')
-        setBody('')
-    }
+  const [title, setTitle] = useState('')
+  const [body, setBody] = useState('')
 
-    return (
+  const addNote = e => {
+    e.preventDefault()
+    dispatch({
+      type: 'ADD_NOTE',
+      title,
+      body
+    })
+    setTitle('')
+    setBody('')
+  }
+
+  return (
         <>
-            <p>Add note {position.x} - {position.y}</p>
-            <form onSubmit={addNote}>
-                <input value={title} onChange={(e) => setTitle(e.target.value)} />
-                <textarea value={body} onChange={(e) => setBody(e.target.value)}></textarea>
-                <button>add note</button>
-            </form>
+          <p>Add note</p>
+          <form onSubmit={addNote}>
+            <input
+              placeholder='note title'
+              value={title}
+              onChange={e => setTitle(e.target.value)}
+            />
+            <input
+              placeholder='note content'
+              value={body}
+              onChange={e => setBody(e.target.value)}
+            />
+            <button>add note</button>
+          </form>
         </>
-    )
+  )
 }
 
 export { AddNoteForm as default }
